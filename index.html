@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Inscrição</title>
+</head>
+
+
+
+<body>
+
+    <h1>Formulário de Inscrição</h1>
+
+    <br>
+
+    <form action="#" method="post">
+
+        <label>Nome</label>
+        <input type="text" id="txt_nome" required>
+
+        <br>
+
+        <label>Email</label>
+        <input type="email" id="txt.email" required>
+
+        <br>
+
+        <label>Senha</label>
+        <input type="password" id="txt_senha" required>
+
+        <br>
+
+        
+        <label>Telefone</label>
+        <input type="Telefone" id="txt_tel" maxlength="11" pattern="\d*" required>
+
+        <br>
+
+        <label>Data Nascimento</label>
+        <input type="date" id="txt_data" required>
+
+        <br>
+
+
+    <label>Descrição</label>
+    <input type="text" id="txt_descricao" axlength="200">
+    
+
+        <br>
+
+        <input type="radio" id="rd_masc" name="radio" value="Masculino">Masculino
+
+        <br>
+
+        <input type="radio" id="rd_fem" name="radio" value="Masculino">Feminino
+
+        <br>
+
+        <input type="radio" id="rd_ind" name="radio" value="Masculino">Indefinido
+
+        <br>
+
+
+        <label>Tipo de inscrição</label>
+
+        <select id="sel_escolar">
+
+            <option>Palestrante</option>
+            <option>Participante</option>
+            <option>Voluntário</option>
+
+        </select>
+
+   
+
+</select>
+
+
+<br>
+
+<label>Aceite os Temos de Uso</label>
+<input type="checkbox" id="chk_termo">
+
+<br>
+
+<button type="submit" class="submit">Enviar </button>
+<button type="reset" class="reset">Limpar Tudo</button>
+
+
+
+
+    </form>
+
+
+    
+    
+</body>
+
+
+</html>
